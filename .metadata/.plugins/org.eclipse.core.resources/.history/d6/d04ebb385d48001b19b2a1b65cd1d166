@@ -1,0 +1,5 @@
+package net.minefs.helloworld;
+
+public class Event {
+
+}

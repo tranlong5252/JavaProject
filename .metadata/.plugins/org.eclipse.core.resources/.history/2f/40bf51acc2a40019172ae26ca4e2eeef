@@ -1,0 +1,9 @@
+package tranlong5252;
+
+public class c02_variable {
+	public static void main(String[] args) {
+		//khai bao bien
+		int age; 
+		
+	}
+}

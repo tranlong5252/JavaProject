@@ -1,0 +1,7 @@
+name: Helloworld
+version: 1.0
+author: tranlong5252
+main: me.[your name].[project name].Main
+
+commands:
+  Hello:

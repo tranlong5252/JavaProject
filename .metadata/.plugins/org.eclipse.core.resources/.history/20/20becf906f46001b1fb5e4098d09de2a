@@ -1,0 +1,5 @@
+package net.minefs.helloword.cmds;
+
+public class Hellocmd {
+
+}

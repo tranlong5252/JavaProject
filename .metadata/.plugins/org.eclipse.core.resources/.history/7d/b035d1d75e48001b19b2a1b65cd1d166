@@ -1,0 +1,8 @@
+package net.minefs.helloworld;
+
+import org.bukkit.event.Listener;
+
+public class Event implements Listener {
+		
+	
+}

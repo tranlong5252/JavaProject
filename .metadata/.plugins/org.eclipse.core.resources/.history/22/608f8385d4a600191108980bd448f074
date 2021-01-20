@@ -1,0 +1,7 @@
+package tranlong5252;
+
+public class c03 {
+	public static void main(String[] args) {
+		System.in.read(aa);
+	}
+}

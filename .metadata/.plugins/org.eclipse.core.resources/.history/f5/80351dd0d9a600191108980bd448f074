@@ -1,0 +1,35 @@
+package baitap;
+
+import java.util.Scanner;
+
+public class solonnhat {
+	public static void main(String[] args) {
+		System.out.println("Moi nhap so thu nhat");
+		Scanner Scanner = new Scanner(System.in);
+		int sothunhat = Scanner.nextInt();
+		System.out.println("Moi nhap so thu hai");
+		int sothuhai = Scanner.nextInt();
+		System.out.println("Moi nhap so thu ba");
+		int sothuba = Scanner.nextInt();
+		
+		int max = 0;
+		
+		if(timsolonnhat(sothunhat,sothuhai) > sothuba) {
+			max=timsolonnhat(sothunhat, sothuhai);
+		}else {
+			max=sothuba;
+		}
+		System.out.println("so lon nhat la" + max);
+	}
+	
+	public static int solonnhat(int sothunhat,int sothuhai) {
+		int max = 0;
+		if(sothunhat>sothuhai) {
+			max= sothunhat;
+		}else {
+			max= sothuhai;
+		}
+		
+		return max;
+	}	
+}

@@ -1,0 +1,7 @@
+package net.minefs.helloword.cmds;
+
+import org.bukkit.command.CommandExecutor;
+
+public class Hellocmd implements CommandExecutor{
+
+}

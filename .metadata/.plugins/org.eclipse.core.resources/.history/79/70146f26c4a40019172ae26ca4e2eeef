@@ -1,0 +1,28 @@
+package tranlong5252;
+
+public class c02_variable {
+	public static void main(String[] args) {
+		// khai bao bien
+		/* khai bao bien */
+//		int age; 
+//		int year;
+//		char city;
+//		char name;
+//		int age, year;
+//		char name, city;
+		
+		//first name
+//		char firstname;		// normal
+////		char firstName; 	// camelCase
+//		char first_name;    // underscores
+//		char first-name;    // hyphen		
+		
+		int age     = 21;
+		int year    = 2015;
+		char name	= 'n';
+		
+		System.out.print("age: " + age + "\n");
+		System.out.print(year + "\n");
+		System.out.print("name: " + name + "\n");
+	}
+}

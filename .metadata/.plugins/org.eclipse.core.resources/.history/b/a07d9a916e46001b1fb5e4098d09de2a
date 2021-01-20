@@ -1,0 +1,6 @@
+package net.minefs.helloword;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin{
+
+}

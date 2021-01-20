@@ -1,0 +1,5 @@
+package net.minefs.helloword;
+
+public class Main extends JavaPlugin {
+	
+}

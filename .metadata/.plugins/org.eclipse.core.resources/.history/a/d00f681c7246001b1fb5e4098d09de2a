@@ -1,0 +1,27 @@
+package net.minefs.helloword.cmds;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+import net.minefs.helloword.Main;
+
+public class Hellocmd implements CommandExecutor{
+
+	private Main plugin;
+		
+	public Hellocmd(Main plugin) {
+		this.plugin = plugin;
+		
+	} 
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] arg3) {
+		if (!(plugin instanceof Player)){
+			 sender.sendMessage("Only player can do this!");
+			 
+		}
+		return false;
+	}
+	
+}

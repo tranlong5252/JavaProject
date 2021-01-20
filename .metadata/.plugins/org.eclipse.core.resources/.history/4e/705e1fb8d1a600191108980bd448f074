@@ -1,0 +1,29 @@
+package tranlong5252;
+
+public class c02_variable {
+	public static void main(String[] args) {
+		final int YOUR_BIRTHDAY = 30_4_1975;
+		System.out.println(YOUR_BIRTHDAY);
+		// ghi chú trên một dòng
+		/* ghi chú trên nhiều dòng */
+
+		/* các kiểu đặt biến
+		 * char firstname;		// normal
+		 *	char firstName; 	// camelCase
+		 * char first_name;    // underscores
+		 * char first-name;    // hyphen (deny in java)
+		*/
+		
+		//println = print + "\n"
+		
+		int age     = 21;
+		int year    = 2015;
+		char name	= 'n';
+		System.out.println("name: " + name);
+		System.out.println("age: " + age);
+		System.out.println("year: " + year);
+		age = 30;
+		
+		System.out.println("age: " + age);
+	}
+}

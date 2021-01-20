@@ -1,0 +1,7 @@
+name: Helloworld
+version: 1.0
+author: tranlong5252
+main: net.minefs.helloworld.Main
+api-version: 1.15
+commands:
+  Hello:

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.comp.dependencies.PublicApiCollector"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="main.tranlong.java.sum"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.LoopBeginNode"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.cfg.Loop"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="jdk.internal.joptsimple.internal.Strings"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="net.minecraft.server.v1_16_R3.Main"/>
+    <fullyQualifiedTypeName name="net.minefs.helloword.Main"/>
+    <fullyQualifiedTypeName name="net.minefs.helloword.cmds.Hellocmd"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerEvent"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+</qualifiedTypeNameHistroy>

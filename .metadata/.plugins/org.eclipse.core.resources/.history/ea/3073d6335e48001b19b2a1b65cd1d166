@@ -1,0 +1,12 @@
+package net.minefs.helloworld;
+
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
+public class Event implements Listener {
+		
+		@Override
+		public void onEnable() {
+		    getServer().getPluginManager().registerEvents(new MyListener(), this);
+	}
+}
