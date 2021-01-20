@@ -8,6 +8,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 
 public final class Test extends JavaPlugin implements Listener {
@@ -16,8 +17,8 @@ public final class Test extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         loadConfig();
-        getCommand("bruh").setExecutor(new bruh());
-        getCommand("hello").setExecutor(new hello());
+        Objects.requireNonNull(getCommand("bruh")).setExecutor(new bruh());
+        Objects.requireNonNull(getCommand("hello")).setExecutor(new hello());
         getServer().getPluginManager().registerEvents(new events(), this);
         getLogger().info(ChatColor.AQUA + "Plugin đang được bật");
 

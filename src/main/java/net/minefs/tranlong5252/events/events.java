@@ -7,7 +7,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.event.entity.CreeperPowerEvent;
-import org.bukkit.event.player.PlayerChangedWorldEvent;
 
 public class events implements Listener {
 
@@ -24,10 +23,6 @@ public class events implements Listener {
 
     @EventHandler
     public void CreeperPowerEvent (CreeperPowerEvent event){ 
-        Bukkit.broadcastMessage(" ");
-    }
-    @EventHandler
-    public void PlayerChangedWorldEvent (PlayerChangedWorldEvent event){
-        event.getPlayer();
+        Bukkit.broadcastMessage(ChatColor.GREEN + "Aww man");
     }
 }
