@@ -1,7 +1,0 @@
-name: Hellowrod
-version: 1.0
-author: [your name]
-main: me.[your name].[project name].Main
-
-commands:
-  Hello:

@@ -1,7 +1,0 @@
-package tranlong.basic;
-
-public class helloworld {
-	public static void name() {
-		System.out.println("xin chao the gioi");
-	}
-}
