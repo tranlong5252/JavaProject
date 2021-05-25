@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 import static java.lang.Math.abs;
 
-public class UCLN {
-    public static int UCLN(int i1, int i2) {
-        if (i1 % i2 == 0) return i2;
-        if (i2 % i1 == 0) return i1;
-        else return 1;
+public class USCLN {
+    public static int UCLN(int a, int b) {
+        a = abs(a);
+        b = abs(b);
+        while (a != b) {
+            if (a > b) a = a - b;
+            else b = b - a;
+        }
+        return a;
     }
 
     public static void main(String[] args) {

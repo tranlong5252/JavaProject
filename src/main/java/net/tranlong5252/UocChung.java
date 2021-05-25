@@ -23,5 +23,7 @@ public class UocChung {
         for (Integer i : num) {
             System.out.print(i + " ");
         }
+        //đếm số lượng ước
+        //System.out.println(num.size());
     }
 }  
