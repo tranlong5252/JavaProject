@@ -11,9 +11,6 @@ public class PrintBinary {
         while (!check) {
             try {
                 n = Integer.parseInt(input.nextLine());
-                if (n < 0 || n > 20) {
-                    continue;
-                }
                 check = true;
             } catch (Exception e) {
                 System.out.println("Integer > 0 only");
