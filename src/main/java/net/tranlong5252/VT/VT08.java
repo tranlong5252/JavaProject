@@ -1,4 +1,4 @@
-package net.tranlong5252;
+package net.tranlong5252.VT;
 
 import java.util.ArrayList;
 import java.util.Scanner;
