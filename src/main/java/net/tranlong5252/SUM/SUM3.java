@@ -1,4 +1,4 @@
-package net.tranlong5252;
+package net.tranlong5252.SUM;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

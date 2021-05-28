@@ -1,4 +1,4 @@
-package net.tranlong5252;
+package net.tranlong5252.SUM;
 
 import java.util.Scanner;
 
