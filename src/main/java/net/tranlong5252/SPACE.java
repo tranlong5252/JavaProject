@@ -1,31 +1,36 @@
 package net.tranlong5252;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class SPACE {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int length = Integer.parseInt(sc.nextLine());
-        ArrayList<String> ar = new ArrayList<>();
-        for (int T = 0; T < length; T++) {
-            String s = sc.nextLine().replaceFirst("\\s++$", "");
-            ar.add(s);
-        }
-        System.out.println(ar);
-        for (int i = 0; i < length; i++) {
-            int count = 0;
-            for (int j = 0; j < ar.get(i).length(); j++) {
-                if (ar.get(i).charAt(j) == ' ') {
-                    if (ar.get(i).charAt(j + 1) != ' ' && j > 0 && ar.get(i).charAt(j - 1) != ' ') {
-                        count++;
-                    } else if (ar.get(i).charAt(j + 1) != ' ') {
-                        count++;
+    public static void main(String[] args) throws IOException {
+        BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(rd.readLine());
+        int[] dem = new int[n];
+        for (int k = 0; k < n; k++) {
+            String s = rd.readLine();
+            StringBuilder sb = new StringBuilder(s);
+            dem[k] = 0;
+            int len = sb.length();
+            for (int i = 0; i < len; i++) {
+                if (i > 0) {
+                    if (sb.charAt(i) == ' ' && sb.charAt(i - 1) == ' ') {
+                        sb.deleteCharAt(i);
+                        len = sb.length();
+                        i--;
                     }
                 }
             }
-            if (ar.get(i).isEmpty()) System.out.println(1);
-            else System.out.println(count);
+            for (int i = 0; i < len; i++) {
+                if (sb.charAt(i) == ' ') {
+                    dem[k]++;
+                }
+            }
+        }
+        for (int k = 0; k < n; k++) {
+            System.out.println(dem[k]);
         }
     }
 }
