@@ -1,4 +1,4 @@
-package net.tranlong5252;
+package net.tranlong5252.FH;
 
 import java.util.Scanner;
 

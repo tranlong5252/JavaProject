@@ -18,10 +18,7 @@ public class PITT002 {
                         (a[0][0]*a[1][2]*a[2][1]);
         System.out.println(det);
     }
-    int det2(int[][]a){
-        // cấp của ma trận.
-        // Chú ý nếu cấp của ma trận lớn hơn 7
-        // thì số phép tính vượt quá giới hạn tính toán
+    static int det2(int[][]a){
         int lvl = a.length;
         int dt = 0;
         if(lvl==1){
