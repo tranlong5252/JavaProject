@@ -16,7 +16,7 @@ public class FH_05_02 {
     }
 
     static boolean isArmNum(int n) {
-        int originalNumber, remainder, result = 0, i = 0;
+        long originalNumber, remainder, result = 0, i = 0;
         originalNumber = n;
         for (; originalNumber != 0; originalNumber /= 10) i++;
         originalNumber = n;
